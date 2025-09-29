@@ -36,5 +36,12 @@ The initial training run shows a classic learning pattern:
 -  **Overfitting**:  
   After epoch 19, training loss decreased while validation loss increased, indicating overfitting.  
 
-- ⏹ **Early Stopping**:  
-  T
+- **Early Stopping**:  
+    Training stopped at **epoch 21**, restoring the **best weights** (lowest validation loss).  
+
+---
+
+##  Key Takeaways
+- Transfer learning enables high accuracy with limited data and resources.  
+- MobileNetV2 is lightweight, efficient, and powerful for feature extraction.  
+- Early stopping is essential to avoid overfitting in deep learning projects.  
